@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(19, 23, 36);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: aliceblue;
+font-size: 1.7rem;
+    position: absolute;
+    top: 1px;
+
+    display: flex;
+    align-items: center;
+     justify-content: center;
+    opacity: 0.2;
+}
+.calculator {   
+    text-align: center;
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: rgb(38, 43, 60);
+    box-shadow: rgb(0, 0, 0) 0px 14px 18px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+Input {
+    width: 80%;
+    border: none;
+    padding: 10px;
+    font-size: 2rem;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0;
+    color: greenyellow;
+    text-align: right;
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    height: 60px;
+    width: 60PX;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 1.1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+
+}
+.Class1{
+    background-color: rgb(255, 113, 62);
+}
+.special-charc{
+    color: rgb(47, 116, 255);
+}
+button:hover{
+    color: rgb(92, 92, 92);
+    transform: scale(1.08);
+    transition: all 0.2 ease-in 0s;
+}
